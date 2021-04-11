@@ -12,11 +12,12 @@
     "probot-app"
   ],
   "scripts": {
-    "start": "probot run ./index.js",
+    "start": "probot run app.js",
     "test": "jest"
   },
   "dependencies": {
-    "probot": "^11.0.1"
+    "probot": "^11.0.1",
+    "@probot/adapter-github-actions": "^3.0.1"
   },
   "devDependencies": {
     "jest": "^26.6.3",
